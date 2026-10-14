@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Taco-Shop Kontakt">
+    <title>Kontakt Taco-Shop</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Kontakt</h1>
+        <nav aria-label="Hauptnavigation">
+            <ul>
+                <li><a href="/tacowebsite/GitHub-Projekte/html_course/10_lesson_starter/index.html">Home</a></li>
+                <li><a href="/tacowebsite/GitHub-Projekte/html_course/10_lesson_starter/index.html#ueberLTS">Über
+                        Uns</a></li>
+                <li><a href="/tacowebsite/GitHub-Projekte/html_course/10_lesson_starter/index.html#menu">Menü</a></li>
+                <li><a
+                        href="/tacowebsite/GitHub-Projekte/html_course/10_lesson_starter/öffnungszeiten.html">Öffnungszeiten</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <figure>
+                <img src="img/tacos_close_up_400x260.png" alt="Taco" width="400" height="260">
+                <figcaption>Kleine Taco-Shop Tacos</figcaption>
+            </figure>
+            <h2>Unser Kontaktfomular</h2>
+            <section>
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Sende uns eine Nachricht</legend>
+                        <p>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" placeholder="Samuel Kuhn" autocomplete="on"
+                                required>
+                        </p>
+                        <p>
+                            <label for="e-mail">E-Mail:</label>
+                            <input type="email" name="email" id="email" placeholder="name@beispiel.com" required>
+                        </p>
+                        <p>
+                            <label for="nachricht">Deine Nachricht:</label>
+                            <br>
+                            <textarea name="nachricht" id="nachricht" cols="30"
+                                rows="10">Tippe deine Nachricht hier ein...</textarea>
+                        </p>
+                    </fieldset>
+
+                    <button type="submit">Absenden</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </section>
+        </article>
+        <article>
+            <h2>Unsere Location</h2>
+            <section>
+                <address>
+                    555 Taco Temptation Lane, Suite T <br>
+                    Kansas City, Tel: 55555-5555 <br> <br>
+                    Phone: <a href="tel:55555-5555">55555-5555</a>
+                </address>
+                <br>
+                <a href="#">Zurück nach Oben</a>
+            </section>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; Taco-Shop</p>
+    </footer>
+
+</body>
+
+</html>
